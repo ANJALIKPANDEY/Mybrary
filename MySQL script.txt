@@ -1,0 +1,69 @@
+
+				DATABASE
+
+This project consist of a database named : "librarynew"
+
+Tables
+------
+
+1.account:	create table account(
+			Username varchar(50),
+			Name varchar(50),
+			Password integer,
+			Sec_Q varchar(50),
+			Answer varchar(50)
+		);
+
+2.book:		create table book(
+			Book_ID integer,
+			Name char(50),
+			Edition integer,
+			Publisher char(50),
+			Price integer,
+			Pages integer
+		);
+
+3.student:	create table student(
+			Student_ID integer,
+			Name char(50),
+			Father char(50),
+			Course char(50),
+			Branch char(50),
+			Year integer,
+			Semester integer
+		);
+
+4.issue:	create table issue(
+			Book_ID integer,
+			Name char(50),
+			Edition integer,
+			Publisher char(50),
+			Price integer,
+			Pages integer,
+			Student_Id integer,
+			SName char(50),
+			FName char(50),
+			Course char(50),
+			Branch char(50),
+			Year integer,
+			Semester integer,
+			DateOfIssue integer
+		);
+
+5.returnbook:	create table returnbook(
+			Student_ID integer,
+			Name char(50),
+			FName char(50),
+			Course char(50),
+			Branch char(50),
+			Year integer,
+			Semester integer,
+			Book_ID integer,
+			BName char(50),
+			Edition integer,
+			Publisher char(50),
+			Price integer,
+			Pages integer,
+			DOI integer,
+			DOR integer
+		);			
