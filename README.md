@@ -10,7 +10,11 @@ System Requirements
 -------------------
 
 JDK:		Version 1.7 or above
+
 Memory : 	No minimum requirement
+
 Windows:	Windows 2000 or above
+
 IDE:		NetBeans 11
+
 Database: 	MySQL
