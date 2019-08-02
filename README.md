@@ -1,6 +1,6 @@
 # Mybrary
 
-Mybrary is a application that manages the records of the books in the 
+Mybrary is an application that manages the records of the books in the 
 library as well as the information of all the members of the library. 
 Based on the concept of Library Management System, Mybrary can perform 
 opertions like add a new book or a new member, issue books to the member, 
